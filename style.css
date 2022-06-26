@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    
+}
+
+.Header {
+    background-image: url("img/Altai.jpg");
+    height: 175px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 5px;
+
+}
+
+.Button {
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 17px;
+    background-color: gold;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+.Button:active {
+    background-color: goldenrod;
+    box-shadow: 0 5px #667;
+    transform: translateY(4px);
+
+}
+
+.Button#Homebutton{
+    background-color: goldenrod;
+    box-shadow: 0 5px #667;
+    transform: translateY(4px);
+    cursor: auto;
+}
