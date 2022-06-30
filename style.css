@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     
 }
 
@@ -41,4 +42,24 @@ body {
     box-shadow: 0 5px #667;
     transform: translateY(4px);
     cursor: auto;
+}
+
+.Haupt {
+    display: flex;
+    height: 800px;
+    align-items: stretch;
+}
+
+.Haupt1 {
+    flex-grow: 1;
+    background-color: lightgrey;
+}
+
+.Haupt2 {
+    flex-grow: 5;
+}
+
+.Haupt3 {
+    flex-grow: 1;
+    background-color: lightgrey;
 }
