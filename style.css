@@ -37,12 +37,13 @@ body {
 
 }
 
-.Button#Homebutton{
+#Homebutton, #Zuchtbutton, #Rassebutton, #Galeriebutton, #Kontaktbutton {
     background-color: goldenrod;
     box-shadow: 0 5px #667;
     transform: translateY(4px);
     cursor: auto;
 }
+
 
 .Haupt {
     display: flex;
@@ -62,4 +63,18 @@ body {
 .Haupt3 {
     flex-grow: 1;
     background-color: lightgrey;
+}
+
+.Footer {
+    height: 200px;
+    background-color: grey;
+    font-size: 22px;
+    font-style: oblique;
+    display: flex;
+    
+}
+
+.FooterImpressum {
+    flex-grow: 1;
+    text-align: center;
 }
